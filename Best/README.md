@@ -65,7 +65,7 @@ Run detection in real-time from your webcam or any video file.
 python main.py
 ```
 ```
-model = YOLO('Best/weights/best.pt')
+model = YOLO('best.pt')
 ```
 When prompted:
 - Type `webcam` for live camera input
