@@ -36,7 +36,7 @@ The graph below shows the evolution of metrics during training:
 
 This consistency indicates the model is well-trained and generalizes well to the validation set.
 
-![Results](YOLO_PascalVoc_Experiments/visualization.jpg)
+![Results](Best/visualization.jpg)
 
 ---
 
