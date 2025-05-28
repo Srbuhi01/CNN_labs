@@ -9,9 +9,9 @@ This project fine-tunes YOLOv8 models on the Pascal VOC 2012 dataset for object 
 
 | Experiment | Model       | Batch | LR     | mAP@0.5 | mAP@0.5:0.95 | Precision | Recall | Notes                      |
 |------------|-------------|-------|--------|---------|--------------|-----------|--------|----------------------------|
-| Exp #1     | yolov8s.pt  | 16    | 0.01   | ~0.75   | ~0.58        | 0.7336    | 0.6238 | Strong augmentations       |
-| Exp #2     | yolov8m.pt  | 16    | 0.003  | ~0.76   | ~0.59        | High      | Good   | Moderate aug, wd added     |
-| Exp #3     | yolov8m.pt  | 32    | 0.0025 | 0.7841  | 0.6031       | 0.8214    | 0.7065 | Best results (Epoch 49)    |
+| Exp #1     | yolov8s.pt  | 16    | 0.01   | 75 %    | ~58  %       | 73 %      | 62 %   | Strong augmentations       |
+| Exp #2     | yolov8m.pt  | 16    | 0.003  | ~76 %   | ~59  %       | High      | Good   | Moderate aug, wd added     |
+| Exp #3     | yolov8m.pt  | 32    | 0.0025 | ~78 %   | ~60  %       | 82 %      | 70 %   | *Best results* (Epoch 49)  |
 
 
 ---
